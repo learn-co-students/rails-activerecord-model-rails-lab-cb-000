@@ -4,7 +4,7 @@
 
 1. Create a migration by hand
 2. Create a model by hand
-3. Build a model instance method
+3. Build a model insethod
 
 ## Building a Model
 
