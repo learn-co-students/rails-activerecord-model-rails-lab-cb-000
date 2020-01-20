@@ -1,10 +1,14 @@
 source 'https://rubygems.org'
 
+# --------------------------------
+# To get *anything* in this way-outdated lab repo to work, first bumped up json, then rails, then sqlite.
+# Hey Flatiron, update your old-ass lab gemfiles! C'mon!
+# --------------------------------
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.3'
+gem 'rails', '~> 5.0' # changed from '4.2.3' ******************************
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+gem 'sqlite3', '~> 1.3.6' # added versioning ***************************
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -22,6 +26,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
+
+gem 'json', '~> 1.8.3' #I added this ***********************
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
